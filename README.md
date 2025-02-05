@@ -1,2 +1,2 @@
 # Huesday
-Huesday is an application 
+Huesday is an application for tracking your mood every day with a single pixel! This app is a simple and fun way to log your daily moods. At the end of each day, you’ll get a gentle notification reminding you to record how you felt. Each mood becomes a colorful pixel on your year grid. Over time, you’ll see your entire year visualized as a mosaic of emotions—your personal journey in pixels!
