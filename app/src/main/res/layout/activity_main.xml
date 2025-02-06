@@ -28,7 +28,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Capture your moods, and choose your color palette to make your yearly piexles!"
+        android:text="Capture your moods, and choose your color palette to make your yearly pixels!"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
