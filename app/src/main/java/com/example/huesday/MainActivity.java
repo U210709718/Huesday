@@ -1,7 +1,10 @@
 package com.example.huesday;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ToggleButton;
 
 import androidx.activity.EdgeToEdge;
@@ -11,31 +14,25 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    ToggleButton todayButton;
-    ToggleButton pixelsButton;
+    Button button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        todayButton = findViewById(R.id.todayButton);
-        pixelsButton = findViewById(R.id.piexlsButton);
+        button = findViewById(R.id.beginbutton);
 
-        //today fragment will be opened!
-        todayButton.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this, MoodPaletteActivity.class);
+                startActivity(intent);
             }
         });
 
-        //pixels fragment will be opened!
-        pixelsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
+
     }
 
 }
