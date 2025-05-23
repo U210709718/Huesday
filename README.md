@@ -3,4 +3,4 @@ Huesday is a simple and beautiful way to track your daily moods using colors. At
 
 ## 📘 Documentation
 
-[📄 View the first draft of Huesday](Huesday/HuesDay_UI_FIRST_DRAFT.pdf)
+[📄 View the first draft of Huesday](HuesDay_UI_FIRST_DRAFT.pdf)
